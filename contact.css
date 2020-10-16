@@ -8,13 +8,8 @@
   font-family: 'Noto Sans KR', sans-serif;
   padding: 0;
   margin: 0;
-  min-width: 992px;
+  max-width: auto;
 }
-
-/*body {
-  display: flex;
-}
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
 
@@ -30,7 +25,7 @@
   list-style: none;
   text-align: center;
 }
-
+/*
 .gif img {
   display: flex;
   justify-content: center;
@@ -38,21 +33,32 @@
   width: 500px;
   height: 355px;
 }*/
+
+
+
+.contactpart {
+  background-image: url(img/balise.gif);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 40px;
+  height: 470px;
+}
+
+.contactpart h1, a {
+  color: white;
+  font-size: 12px;
+  line-height: 28px;
+  animation: bounce; 
+  animation-duration: 500ms;
 }
 
 .block {
   background-color: #113537;
-  padding: 30px;
-  width: 250px;
+  background-size: 100%;
+  margin: 90px;
+  padding: 20px;
   position: relative;
-  left: 220px;
-  top: 420px;
-}
-
-.contact h1, a {
-  color: white;
-  font-size: 16px;
-  line-height: 28px;
+  top: 200px;
 }
 
 /*footer*/
