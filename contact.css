@@ -8,7 +8,7 @@
   font-family: 'Noto Sans KR', sans-serif;
   padding: 0;
   margin: 0;
-  max-width: auto;
+  max-width: 600px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
@@ -21,45 +21,57 @@
 
 .icon {
   display: flex;
+  font-size: 15px;
   justify-content: space-around;
   list-style: none;
   text-align: center;
 }
-/*
-.gif img {
-  display: flex;
-  justify-content: center;
-  /*margin: 120px;
-  width: 500px;
-  height: 355px;
-}*/
 
-
-
-.contactpart {
-  background-image: url(img/balise.gif);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  margin: 40px;
-  height: 470px;
-}
-
-.contactpart h1, a {
+.icon li, a {
   color: white;
-  font-size: 12px;
-  line-height: 28px;
-  animation: bounce; 
-  animation-duration: 500ms;
+  margin: 10px;
 }
 
-.block {
-  background-color: #113537;
-  background-size: 100%;
-  margin: 90px;
-  padding: 20px;
-  position: relative;
-  top: 200px;
+.gif img {
+  width: 500px;
+  height: 290px;
+  margin-top: 47px;
+  margin-left: 47px;
+  position: absolute;
 }
+
+.adress {
+  background-color: #113537;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  margin-top: 300px;
+  position: relative;
+  padding: 20px;
+  width: 210px;
+}
+
+.adress h1, a {
+  font-size: 12px;
+}
+
+.socials {
+  background-color: pink;
+  color: #113537;
+  text-align: center;
+}
+
+.socials a {
+  color: blue;
+  font-size: 70px;
+}
+
+
+
 
 /*footer*/
 
+footer {
+  background-color: purple;
+}
