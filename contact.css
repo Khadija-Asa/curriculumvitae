@@ -8,7 +8,7 @@
   font-family: 'Noto Sans KR', sans-serif;
   padding: 0;
   margin: 0;
-  max-width: 600px;
+  max-width: auto;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
@@ -32,6 +32,10 @@
   margin: 10px;
 }
 
+.gif {
+  background-color: #FFFAFF;
+}
+
 .gif img {
   width: 500px;
   height: 290px;
@@ -42,7 +46,8 @@
 
 .adress {
   background-color: #113537;
-  color: white;
+/*  box-shadow: 60px -16px teal;
+*/  color: white;
   display: flex;
   flex-direction: column;
   margin-left: 180px;
@@ -57,21 +62,20 @@
 }
 
 .socials {
-  background-color: pink;
+  background-color: #FFFAFF;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
   color: #113537;
+  margin: 30px;
   text-align: center;
 }
 
 .socials a {
-  color: blue;
+  color: #53131E;
   font-size: 70px;
 }
-
-
-
 
 /*footer*/
 
 footer {
-  background-color: purple;
+  background-color: #113537;
 }
