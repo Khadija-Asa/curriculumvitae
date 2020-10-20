@@ -1,7 +1,14 @@
+/*@media screen and (min-width: 768px) and (max-width : 992px) {
+
+@media screen and (min-width: 992px) and (max-width : 1200px) {
+
+@media screen and (min-width: 1200px) {
+*/
 * {
+  font-family: 'Noto Sans KR', sans-serif;
   padding: 0;
   margin: 0;
-  font-family: 'Noto Sans KR', sans-serif;
+  max-width: 767px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
@@ -9,67 +16,66 @@
 /*navbar*/
 
 .container {
-  width: 1170px;
-  margin: 0 auto;
-  border-bottom: 1px solid black;
-}
-
-header {
-  height: 70px;
-  background: #113537;
-  width: 100%;
-  border-bottom: 1px solid black;
-}
-
-.title {
-  width: 30%;
-  float: left;
-  line-height: 100px;
-}
-
-nav {
-  float: left;
-  line-height: 70px;
-}
-
-nav a {
-  letter-spacing: 2px;
-  text-decoration: none;
-  font-family: serif;
-  font-size: 16px;
-  margin-left: 50px;
-  color: white;
-  display: block-inline;
-}
-
-/*content*/
-
-.contact {
-  background-color: purple;
-}
-
-.img1 img {
-  position: absolute;
-  width: 700px;
-  height: 410px;
-  top: 120px;
-  left: 150px;
-}
-
-.img2 {
-  color: white;
-  font-size: 12px;
-  line-height: 30px;
-  position: absolute;
   background-color: #113537;
-  top: 220px;
-  left: 700px;
-  padding: 55px;
 }
 
-.img2 a {
+.icon {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-around;
+  list-style: none;
+  text-align: center;
+}
+
+.icon li, a {
   color: white;
-  text-decoration: none;
+  margin: 10px;
+}
+
+.gif {
+  background-color: #FFFAFF;
+}
+
+.gif img {
+  width: 500px;
+  height: 290px;
+  margin-top: 47px;
+  margin-left: 47px;
+  position: absolute;
+}
+
+.adress {
+  background-color: #113537;
+/*  box-shadow: 60px -16px teal;
+*/  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 180px;
+  margin-top: 300px;
+  position: relative;
+  padding: 20px;
+  width: 210px;
+}
+
+.adress h1, a {
+  font-size: 12px;
+}
+
+.socials {
+  background-color: #FFFAFF;
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+  color: #113537;
+  margin: 30px;
+  text-align: center;
+}
+
+.socials a {
+  color: #53131E;
+  font-size: 70px;
 }
 
 /*footer*/
+
+footer {
+  background-color: #113537;
+}
