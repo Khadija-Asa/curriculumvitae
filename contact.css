@@ -9,10 +9,14 @@
   padding: 0;
   margin: 0;
 <<<<<<< HEAD
+<<<<<<< HEAD
   max-width: auto;
 =======
   max-width: 767px;
 >>>>>>> feature/quisuisje
+=======
+  max-width: 767px;
+>>>>>>> feature/contact
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
@@ -25,7 +29,6 @@
 
 .icon {
   display: flex;
-  font-size: 15px;
   justify-content: space-around;
   list-style: none;
   text-align: center;
@@ -41,8 +44,8 @@
 }
 
 .gif img {
-  width: 500px;
-  height: 290px;
+  width: 680px;
+  height: 310px;
   margin-top: 47px;
   margin-left: 47px;
   position: absolute;
@@ -50,19 +53,18 @@
 
 .adress {
   background-color: #113537;
-/*  box-shadow: 60px -16px teal;
-*/  color: white;
+  color: white;
   display: flex;
   flex-direction: column;
   margin-left: 180px;
-  margin-top: 300px;
+  margin-top: 310px;
   position: relative;
-  padding: 20px;
-  width: 210px;
+  padding: 35px;
+  width: 350px;
 }
 
 .adress h1, a {
-  font-size: 12px;
+  font-size: 22px;
 }
 
 .socials {
@@ -73,13 +75,33 @@
   text-align: center;
 }
 
+.socials h2 {
+  font-size: 35px;
+  margin: 50px;
+}
+
 .socials a {
   color: #53131E;
-  font-size: 70px;
+  margin-bottom: 200px;
+  font-size: 110px;
 }
 
 /*footer*/
 
-footer {
+.contact {
   background-color: #113537;
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  padding: 30px;
+  text-align: center;
 }
+
+.contact h3 {
+  color: #53131E;
+  font-size: 25px;
+}
+
+.contact a {
+  font-size: 20px;
+} 
